@@ -154,6 +154,17 @@ body {
   align-items: center;
   margin: 0px;
 }
+.task-box .task label p {
+  font-size: medium;
+  user-select: none;
+  margin: 7px;
+  word-wrap: break-word; /* Breaks long words */
+  word-break: break-word; /* Ensures the word breaks at the edge of the container */
+  hyphens: auto; /* Adds hyphens when breaking words */
+  overflow-wrap: break-word; /* Breaks long words to fit the container */
+  display: flex;
+  align-items: center;
+}
 .task label input {
   margin-top: 0px;
   accent-color: #3C87FF;
