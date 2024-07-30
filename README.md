@@ -22,7 +22,7 @@ Welcome to **Task Master** – your ultimate solution for efficient task managem
 
 Discover how Task Master can revolutionize your task management by exploring the website and enhancing your productivity.
 
-[Explore Task Master](https://saipritampanda.github.io/Task-Master/)
+<a href="https://saipritampanda.github.io/Task-Master/" target="_blank">Explore Task Master</a>
 
 ---
 
