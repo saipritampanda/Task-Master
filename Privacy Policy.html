@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Coding By SAI PRITAM PANDA
-     Connect with me here, in LinkedIn: https://www.linkedin.com/in/sai-pritam-panda-4bb115231/
+     Connect with me here, in LinkedIn: https://www.linkedin.com/in/saipritampanda/
 -->
 <html lang="en">
 
@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1785962158595876"
+        crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <style>
         /* General Styles for the Privacy Policy Page */
@@ -36,7 +38,7 @@
             margin-bottom: 5px;
         }
 
-        .footer-div{
+        .footer-div {
             padding: 19px;
         }
 
@@ -51,7 +53,7 @@
         }
 
         .footer {
-            background-color: rgb(14, 14, 14,0.44);
+            background-color: rgb(14, 14, 14, 0.44);
         }
 
         .footer p {
@@ -128,17 +130,51 @@
 
                 <h2>Version</h2>
                 <p>Current deployment is of <b>Version: 1.1.0</b></p>
-                
+
             </div>
         </div>
     </div>
 
     <footer class="footer mt-5 text-white text-center py-3">
         <div class="container footer-div">
-            <p>&copy; 2023 - 2024 Task Master. All rights reserved.</p>
+            <p>&copy; 2024 Task Master. All rights reserved.</p>
         </div>
     </footer>
 
+    <script>
+        // Disable right-click functionality
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Prevent opening developer tools or saving/viewing source via shortcuts
+        document.addEventListener("keydown", function (e) {
+            // Block Ctrl+Shift+J or Cmd+Shift+J
+            if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.code === "KeyJ") {
+                e.preventDefault();
+            }
+
+            // Block Ctrl+Shift+I or Cmd+Shift+I
+            if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.code === "KeyI") {
+                e.preventDefault();
+            }
+
+            // Block F12 key
+            if (e.code === "F12") {
+                e.preventDefault();
+            }
+
+            // Block Ctrl+U or Cmd+Option+U
+            if ((e.ctrlKey || e.metaKey) && (e.code === "KeyU" || e.altKey)) {
+                e.preventDefault();
+            }
+
+            // Block Ctrl+S or Cmd+S
+            if ((e.ctrlKey || e.metaKey) && e.code === "KeyS") {
+                e.preventDefault();
+            }
+        });
+    </script>
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
