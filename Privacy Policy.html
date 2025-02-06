@@ -8,11 +8,12 @@
     <meta charset="utf-8">
     <title>Privacy Policy - Task Master</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image Assets/Fav Icons/favicon-privacy-policy.png" type="image/png"> <!--Fav Icon-->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1785962158595876"
         crossorigin="anonymous"></script>
-    <!-- Custom CSS -->
+    <script src="mastercodes.js"></script>
     <style>
         /* General Styles for the Privacy Policy Page */
         body {
@@ -89,6 +90,7 @@
 
     <div class="container mt-5">
         <h1 class="text-center">Privacy Policy</h1>
+        <p id="version-top" class="text-center"><b>Version: &nbsp; 1.1.0</b></p>
         <p class="text-center">Effective Date: January 1, 2024</p>
 
         <div class="card mt-3">
@@ -129,7 +131,7 @@
                 </ul><br>
 
                 <h2>Version</h2>
-                <p>Current deployment is of <b>Version: 1.1.0</b></p>
+                <p>Current deployment is of <b id="version-bottom">Version: 1.1.0</b></p>
 
             </div>
         </div>
@@ -137,44 +139,10 @@
 
     <footer class="footer mt-5 text-white text-center py-3">
         <div class="container footer-div">
-            <p>&copy; 2024 Task Master. All rights reserved.</p>
+            <p>&copy; 2024 - <span id="current-year"></span> Task Master. All rights reserved.</p>
         </div>
     </footer>
 
-    <script>
-        // Disable right-click functionality
-        document.addEventListener("contextmenu", function (e) {
-            e.preventDefault();
-        });
-
-        // Prevent opening developer tools or saving/viewing source via shortcuts
-        document.addEventListener("keydown", function (e) {
-            // Block Ctrl+Shift+J or Cmd+Shift+J
-            if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.code === "KeyJ") {
-                e.preventDefault();
-            }
-
-            // Block Ctrl+Shift+I or Cmd+Shift+I
-            if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.code === "KeyI") {
-                e.preventDefault();
-            }
-
-            // Block F12 key
-            if (e.code === "F12") {
-                e.preventDefault();
-            }
-
-            // Block Ctrl+U or Cmd+Option+U
-            if ((e.ctrlKey || e.metaKey) && (e.code === "KeyU" || e.altKey)) {
-                e.preventDefault();
-            }
-
-            // Block Ctrl+S or Cmd+S
-            if ((e.ctrlKey || e.metaKey) && e.code === "KeyS") {
-                e.preventDefault();
-            }
-        });
-    </script>
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
